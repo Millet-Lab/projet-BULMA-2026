@@ -1,0 +1,16 @@
+﻿using Bulma.Web.Presentation.Affichages;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Bulma.Web.Presentation.Interfaces
+{
+    public interface ICatalogueVue
+    {
+        void AfficherProduits(List<ProduitAffichage> produits, string titre);
+        void AfficherErreur(string message);
+        void AfficherConfirmation(string message);
+    }
+}

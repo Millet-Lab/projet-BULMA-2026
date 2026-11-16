@@ -1,0 +1,123 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI, Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../Images/fond-accueil.jpg") center no-repeat;
+    background-size: cover;
+    background-color: #1b1b20;
+}
+
+.card {
+    width: 400px;
+    background: white;
+    position: relative;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: 600;
+        color: #444;
+    }
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+    .input:focus {
+        outline: none;
+        border-color: #7c3aed;
+        box-shadow: 0 0 5px rgba(124, 58, 237, 0.4);
+    }
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #7c3aed;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .btn:hover {
+        background: #6d28d9;
+    }
+
+.btn-fermer {
+    position: absolute;
+    top: .75rem;
+    right: .75rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: #000;
+    font-size: 2rem;
+    line-height: 1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+    .btn-fermer:hover {
+        color: #7c3aed;
+    }
+
+    .btn-fermer:focus-visible {
+        color: #7c3aed;
+        outline: 2px solid #7c3aed;
+        outline-offset: 2px;
+    }
+
+.message {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    min-height: 20px;
+}
+
+.inscription {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .inscription a {
+        text-decoration: none;
+        color: #7c3aed;
+        font-weight: 600;
+    }
+
+        .inscription a:hover {
+            text-decoration: underline;
+        }

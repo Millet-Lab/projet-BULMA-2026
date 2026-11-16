@@ -1,0 +1,168 @@
+﻿:root {
+    --tuile: #f1f1f1;
+    --texte: #ffffff;
+    --accent: #4f46e5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    color: var(--texte);
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../Images/fond-accueil.jpg") center no-repeat;
+    background-size: cover;
+    background-color: #1b1b20;
+}
+
+.accueil {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.barre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, .55);
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+}
+
+.marque {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: .6rem;
+}
+
+    .marque span {
+        color: var(--accent);
+    }
+
+.scene {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.tuiles {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+}
+
+.element.principal {
+    width: 250px;
+}
+
+.tuile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background: var(--tuile);
+    color: #222;
+    text-decoration: none;
+    transform: skewX(-8deg); /* tuile en parallélogramme */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .5);
+    transition: transform .15s ease, background .15s ease;
+}
+
+.element.principal .tuile {
+    height: 175px;
+    background: #fff;
+}
+
+.tuile svg {
+    width: 80px;
+    height: 80px;
+    transform: skewX(8deg);
+}
+/* l'icône reste droite */
+.tuile span {
+    transform: skewX(8deg);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.tuile:hover, .tuile:focus-visible {
+    background: #fff;
+    transform: skewX(-8deg) scale(1.05);
+    outline: 3px solid var(--accent);
+}
+
+.libelle {
+    margin-top: .8rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+details.info {
+    margin-top: .5rem;
+    text-align: center;
+}
+
+details.info summary {
+    list-style: none;
+    cursor: pointer;
+    width: 2.2rem;
+    height: 1.6rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111;
+    border: 1px solid rgba(255, 255, 255, .35);
+    font-style: italic;
+    font-weight: 700;
+}
+
+details.info {
+    list-style: none;
+}
+
+details.info p {
+    max-width: 220px;
+    margin: .6rem 0 0;
+    padding: .6rem .8rem;
+    font-size: .9rem;
+    line-height: 1.35;
+    background: rgba(0, 0, 0, .75);
+}
+
+.pied {
+    text-align: center;
+    padding: .8rem;
+    font-size: .8rem;
+    background: rgba(0, 0, 0, .55);
+}
+
+@media (max-width: 760px) {
+    .tuiles {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .element, .element.principal {
+        width: 260px;
+    }
+}

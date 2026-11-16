@@ -1,0 +1,116 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI, Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../Images/fond-accueil.jpg") center no-repeat;
+    background-size: cover;
+    background-color: #1b1b20;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.2);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+    .menu a {
+        text-decoration: none;
+        background: #7c3aed;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-weight: 600;
+    }
+
+        .menu a:hover {
+            background: #6d28d9;
+        }
+
+.message {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.grid {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    .grid th {
+        background: #7c3aed;
+        color: white;
+        padding: 12px;
+        text-align: left;
+    }
+
+    .grid td {
+        padding: 12px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .grid tr:nth-child(even) {
+        background: #f8f8f8;
+    }
+
+    .grid tr:hover {
+        background: #ede9fe;
+    }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.total {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #16a34a;
+}
+
+.btnCommander {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #22c55e;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .btnCommander:hover {
+        background: #16a34a;
+    }

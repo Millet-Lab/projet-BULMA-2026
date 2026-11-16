@@ -1,0 +1,114 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Segoe UI, Arial, sans-serif;
+    overflow: hidden; /* empêche le scroll */
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../Images/fond-accueil.jpg") center no-repeat;
+    background-size: cover;
+    background-color: #1b1b20;
+}
+
+.card {
+    width: 450px;
+    max-width: 95vw;
+    background: white;
+    position: relative;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.form-group {
+    margin-bottom: 8px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 3px;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+    .input:focus {
+        outline: none;
+        border-color: #7c3aed;
+    }
+
+.ligne {
+    display: flex;
+    gap: 8px;
+}
+
+.demi {
+    flex: 1;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #7c3aed;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background-color: #6d28d9;
+    }
+
+.btn-fermer {
+    position: absolute;
+    top: .75rem;
+    right: .75rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: #000;
+    font-size: 2rem;
+    line-height: 1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+    .btn-fermer:hover {
+        color: #7c3aed;
+    }
+
+    .btn-fermer:focus-visible {
+        color: #7c3aed;
+        outline: 2px solid #7c3aed;
+        outline-offset: 2px;
+    }
+
+.message {
+    display: block;
+    margin-top: 8px;
+    text-align: center;
+}
