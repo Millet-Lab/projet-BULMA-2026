@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Bulma.WPF.Presentation.Affichages
+{
+    public class CommandeAffichage
+    {
+        public int Id { get; set; }
+        public string Date { get; set; } = "";
+        public string Montant { get; set; } = "";
+        public string Statut { get; set; } = "";
+        public bool EstLivree { get; set; }
+    }
+}

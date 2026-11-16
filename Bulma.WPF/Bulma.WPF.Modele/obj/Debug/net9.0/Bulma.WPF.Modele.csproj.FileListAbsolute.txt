@@ -1,0 +1,12 @@
+C:\Users\Millet\Documents\IPEPS\Bloc 4\Projet d'Analyse et de Conception\Bulma\Bulma.WPF\Bulma.WPF.Modele\bin\Debug\net9.0\Bulma.WPF.Modele.deps.json
+C:\Users\Millet\Documents\IPEPS\Bloc 4\Projet d'Analyse et de Conception\Bulma\Bulma.WPF\Bulma.WPF.Modele\bin\Debug\net9.0\Bulma.WPF.Modele.dll
+C:\Users\Millet\Documents\IPEPS\Bloc 4\Projet d'Analyse et de Conception\Bulma\Bulma.WPF\Bulma.WPF.Modele\bin\Debug\net9.0\Bulma.WPF.Modele.pdb
+C:\Users\Millet\Documents\IPEPS\Bloc 4\Projet d'Analyse et de Conception\Bulma\Bulma.WPF\Bulma.WPF.Modele\obj\Debug\net9.0\Bulma.WPF.Modele.csproj.AssemblyReference.cache
+C:\Users\Millet\Documents\IPEPS\Bloc 4\Projet d'Analyse et de Conception\Bulma\Bulma.WPF\Bulma.WPF.Modele\obj\Debug\net9.0\Bulma.WPF.Modele.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Millet\Documents\IPEPS\Bloc 4\Projet d'Analyse et de Conception\Bulma\Bulma.WPF\Bulma.WPF.Modele\obj\Debug\net9.0\Bulma.WPF.Modele.AssemblyInfoInputs.cache
+C:\Users\Millet\Documents\IPEPS\Bloc 4\Projet d'Analyse et de Conception\Bulma\Bulma.WPF\Bulma.WPF.Modele\obj\Debug\net9.0\Bulma.WPF.Modele.AssemblyInfo.cs
+C:\Users\Millet\Documents\IPEPS\Bloc 4\Projet d'Analyse et de Conception\Bulma\Bulma.WPF\Bulma.WPF.Modele\obj\Debug\net9.0\Bulma.WPF.Modele.csproj.CoreCompileInputs.cache
+C:\Users\Millet\Documents\IPEPS\Bloc 4\Projet d'Analyse et de Conception\Bulma\Bulma.WPF\Bulma.WPF.Modele\obj\Debug\net9.0\Bulma.WPF.Modele.dll
+C:\Users\Millet\Documents\IPEPS\Bloc 4\Projet d'Analyse et de Conception\Bulma\Bulma.WPF\Bulma.WPF.Modele\obj\Debug\net9.0\refint\Bulma.WPF.Modele.dll
+C:\Users\Millet\Documents\IPEPS\Bloc 4\Projet d'Analyse et de Conception\Bulma\Bulma.WPF\Bulma.WPF.Modele\obj\Debug\net9.0\Bulma.WPF.Modele.pdb
+C:\Users\Millet\Documents\IPEPS\Bloc 4\Projet d'Analyse et de Conception\Bulma\Bulma.WPF\Bulma.WPF.Modele\obj\Debug\net9.0\ref\Bulma.WPF.Modele.dll

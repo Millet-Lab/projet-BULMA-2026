@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jUc+l9v6VvI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Millet\\Documents\\IPEPS\\Bloc 4\\Projet d'Analyse et de Conception\\Bulma\\Bulma.WPF\\Bulma.WPF.Vue\\Bulma.WPF.Vue.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Millet\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Millet\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0\\microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Millet\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512",
+    "C:\\Users\\Millet\\.nuget\\packages\\system.configuration.configurationmanager\\11.0.0\\system.configuration.configurationmanager.11.0.0.nupkg.sha512",
+    "C:\\Users\\Millet\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
+    "C:\\Users\\Millet\\.nuget\\packages\\system.security.cryptography.protecteddata\\11.0.0\\system.security.cryptography.protecteddata.11.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
