@@ -23,7 +23,10 @@ complet suivant le processus unifié.
 - Gestion des données via interface WPF
 - Consultation via interface Web
 - Base de données centralisée
-- Gestion des produits, gestion des commandes
+- Gestion des produits
+- Gestion des commandes
+- Gestion des clients
+- gestion des authentifications
 
 ## Comment lancer le projet
 1. Cloner le repo : `git clone https://github.com/Millet-Lab/projet-BULMA-2026.git`
